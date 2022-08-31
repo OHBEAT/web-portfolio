@@ -23,9 +23,48 @@
 
 	<title>Arnel Gabucayan</title>
 </head>
-<body>
+<body class="backgroundImage">
+	<!-- Navbar -->
+	<div class="pos-f-t">
+	  <div class="collapse" id="navbarToggleExternalContent">
+	    <div class="p-4">
+	     <nav class="navbar fixed-top navbar-expand navbar-dark">
+	       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	         <span class="navbar-toggler-icon"></span>
+	       </button>
+	       <div class="collapse navbar-collapse" id="navbarNav">
+	       	<!-- ml - margin left push sa left side -->
+	       	<!-- active pang highlight -->
+	         <ul class="navbar-nav ml-auto">
+	           <li class="nav-item">
+	             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="#my_project">My Projects</a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="#tools_used">Tools</a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="#contact_me">Contact Me</a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="#coffee_location">Location</a>
+	           </li>
+	         </ul>
+	       </div>
+	     </nav>
+	    </div>
+	  </div>
+	  <nav class="navbar navbar-dark fixed-top ml-auto">
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	  </nav>
+	</div>
+	<!-- End of Navbar -->
 
-	<div class="backgroundImage container-fluid text-center min-vh-100 text-white p-0">
+	<div class=" container-fluid text-center min-vh-100 text-white p-0">
 		<!-- Home/Landing Page -->
 		<section>
 			<div class="min-vh-100 text-white d-flex justify-content-center align-items-center">
@@ -35,7 +74,7 @@
 		<!-- Hom/Landing Page -->
 
 		<!-- About Me Section -->
-		<section class="container-fluid" id="AboutMe">
+		<section id="home" class="container-fluid" id="AboutMe">
 			<div class="text-white p-3 row">
 				<!-- Image and Title -->
 				<div class="col-6">
@@ -58,7 +97,7 @@
 		<!-- End of About Me Section -->
 
 		<!-- Projects Section-->
-		<section class="container-fluid my-5">
+		<section id="my_project" class="container-fluid my-5">
 			<h1>MY PROJECTS</h1>
 			<div class="p-2 my-5 d-flex justify-content-around">
 				<!-- Arduino Project -->
@@ -106,7 +145,7 @@
 			</div>
 		<section>
 			    <!-- Tools Section Start -->
-			    <div class="row">
+			    <div id="tools_used" class="row">
 			        <!-- Core Tools Section Start -->
 			        <div class="column-3 m-auto">
 			        	<h3>Core Tools</h3>
@@ -145,7 +184,7 @@
 		<!-- End of Project Section -->
 
 		<!-- Contact Me Section -->
-		<section class="mb-5 p-auto">
+		<section id="contact_me" class="mb-5 p-auto">
 			<div>
 				<h2>Contact Me</h2>
 					<a href="https://www.facebook.com/ohbeatman" class="fa fa-facebook"></a>
@@ -159,7 +198,7 @@
 
 		
 		<section>
-				<div class="text-light d-flex p-auto">
+				<div id="coffee_location" class="text-light d-flex p-auto">
 					<!-- Location -->
 					<div class="col-7 mb-auto ml-0">
 					<h3>Let's have some coffee!</h3>
