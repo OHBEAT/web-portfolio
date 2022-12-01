@@ -5,12 +5,28 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.backgroundImage {
-	background-image: url(./images/bg1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: scroll;
+body {
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgb(13,13,13);
+/*  background-color: red;*/
+}
 
+#navbarToggleExternalContent {
+/*  background-color: red;*/
+/*  display: block;*/
+  padding: 10px;
+}
+
+.navbarContent + a {
+  color: white;
+  background: rgb(15, 10, 30);
+  border-radius: 10px;
+}
+
+.vh-50 {
+  height: 100vh;
+  background-color: rgb(0,0,0);
 }
 
 .fa {
